@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ride Easy - Driver Registration</title>
+    <link rel="stylesheet" href="./rental.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+          <div id="logo">
+              <a href="./index.html"><b>Ride Easy</b></a>
+          </div>
+          <div class="menu">
+              <!-- <a href="#">Home</a> -->
+              <a href="./index.html#bod-2">Rental</a>
+              <a href="./about.html">About</a>
+          </div>
+          <div class="menu-1">
+            <a href="./help.html">Help</a>
+              <a href="./h.html">Login</a>
+              <!-- <div id="btn-1">
+                  <button id="btn">Sign Up</button>
+              </div> -->
+          </div>
+      </nav>
+  </header>
+    <section class="hero">
+      <div class="form-container" id="form-container">
+        <h1>Rental Driver Registration</h1>
+        <!-- <p>Wherever you go, we'll get you there. Book a ride with BR now.</p> -->
+        <div class="location-form">
+          <form id="bookingForm" enctype="multipart/form-data">
+            <div class="form-group">
+              <!-- <span class="icon">&#128205;</span> -->
+              <input
+                type="text"
+                id="driverName"
+                name="driverName"
+                placeholder="Name"
+              />
+            </div>
+            <div class="form-group">
+              <!-- <span class="line"></span> -->
+              <!-- <span class="icon">&#127968;</span> -->
+              <input
+                type="email"
+                id="driverEmail"
+                name="driverEmail"
+                placeholder="Email"
+              />
+            </div>
+            <div class="form-group">
+              <!-- <span class="line"></span> -->
+              <!-- <span class="icon">&#127968;</span> -->
+              <input
+                type="text"
+                id="driverLicense"
+                name="driverLicense"
+                placeholder="Driver's License"
+              />
+            </div>
+            <div class="form-group">
+              <!-- <span class="line"></span> -->
+              <!-- <span class="icon">&#127968;</span> -->
+              <input
+                type="text"
+                id="rcBook"
+                name="rcBook"
+                placeholder="RC Book"
+              />
+            </div>
+            <label for="aadharCard">Upload Aadhar Card : </label><br />
+            <div class="form-group">
+              <!-- <span class="line"></span> -->
+              <!-- <span class="icon">&#127968;</span> -->
+              
+              <input
+                type="file"
+                id="aadharCard"
+                name="aadharCard"
+                accept="image/*"
+              />
+            </div>
+
+            <label for="driverPhoto">Upload Driver's Photo : </label><br />
+            <div class="form-group">
+              <!-- <span class="line"></span> -->
+              <!-- <span class="icon">&#127968;</span> -->
+              <input
+                type="file"
+                id="driverPhoto"
+                name="driverPhoto"
+                accept="image/*"
+              />
+            </div>
+            <div id="date">
+                <label for="driverdate">Choose Date :</label><br>
+                <input type="date" id="date-1">
+            </div>
+            <div class="form-group">
+              <div class="btns">
+                <button type="submit">Register as Driver</button>
+                <!-- <button type="submit" id="showMap-btn">Show Maps</button> -->
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- <div class="modal">
+        <span class="close">&#10008;</span>
+        <div class="map-container" id="map-container">
+          <div class="map-area">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d948851.9741594571!2d72.38354913963784!3d21.723956040501843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e6!4m5!1s0x3be052f201ed4421%3A0xf2797c037e17a35e!2sSurat%20International%20Airport%2C%20Surat%20-%20Dumas%20Road%2C%20Gaviyer%2C%20Surat%2C%20Gujarat!3m2!1d21.1210272!2d72.74198489999999!4m5!1s0x395fda2400192473%3A0xc319c9237f2928e8!2sParul%20University%2C%20Post%20Limda%2C%20Waghodia%2C%20Gujarat%20391760!3m2!1d22.2886958!2d73.3634204!5e0!3m2!1sen!2sin!4v1711615998483!5m2!1sen!2sin"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div> -->
+    </section>
+    <script src="./rental.js"></script>
+  </body>
+</html>
